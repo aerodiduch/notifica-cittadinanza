@@ -5,8 +5,8 @@ import re
 import smtplib
 from email.message import EmailMessage
 
-######### Modificame chango
-sender_mail = 'aerodiduch@gmail.com' # tu email, ejemplo nombre@sujeto.com
+######### Cambiar
+sender_mail = 'email@gmail.com' # tu email, ejemplo nombre@sujeto.com
 sender_passwd = 'passwd' # esto se supone que te lo explique por whatsapp
 lista_correos = ["receptor1@servicio1.com","receptor2@servicio2.com","receptor3@servicio3.com"] # aca van la lista de recibidores en el formato "email@receptor.com", "email2@receptor2.com" etc
 ########################
