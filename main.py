@@ -6,7 +6,7 @@ import smtplib
 from email.message import EmailMessage
 
 ######### Cambiar
-sender_mail = 'email@gmail.com' # tu email, ejemplo nombre@sujeto.com
+sender_mail = 'remitente@hotmail.com' # tu email, ejemplo nombre@sujeto.com
 sender_passwd = 'passwd' # esto se supone que te lo explique por whatsapp
 lista_correos = ["receptor1@servicio1.com","receptor2@servicio2.com","receptor3@servicio3.com"] # aca van la lista de recibidores en el formato "email@receptor.com", "email2@receptor2.com" etc
 ########################
@@ -28,7 +28,7 @@ def mandar_mail(mensaje, url):
             msg['From'] = sender_mail #aca es tu correo
             msg['To'] = correo #cada correo de los que esten en lista_correo
 
-            server = smtplib.SMTP("smtp.gmail.com", 587)
+            server = smtplib.SMTP("smtp-mail.outlook.com", 587)
             server.starttls()
             server.login(sender_mail, sender_passwd)
             server.send_message(msg)
