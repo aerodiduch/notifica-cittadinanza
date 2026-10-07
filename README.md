@@ -1,5 +1,7 @@
 # Bot para ver si la embajada de Italia publicó un aviso acerca de la apertura de turnos para la recontrucción de la ciudadania
 
+> Ya no lo mantengo. Queda archivado como referencia.
+
 # Configuración
 
 > Hay que configurar dos cosas. Nuestro email y passwd
